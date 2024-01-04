@@ -1,0 +1,46 @@
+---
+import HeaderButtom from "./HeaderButtom.astro";
+
+---
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-16">
+    <div class="mx-auto text-center mb-8 lg:mb-16">
+        <h2 class="text-6xl text-white font-bold">
+            SpeceX DEBUGSTART
+        </h2>
+        <p>
+            All the information about SpeceX DebugStart
+        </p>
+    </div>
+    <nav class="flex flex-col items-center justify-between w-full text-center md:flex-row">
+        <HeaderButtom href="/">
+            <svg slot="before" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" 
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" 
+                d="M0 0h24v24H0z" fill="none"/><path d="M18 8a3 3 0 0 1 0 6" />
+                <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
+                <path d="M12 8h0l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" /></svg>
+            
+            Noticias</HeaderButtom>
+        <HeaderButtom href="/about">
+            <svg 
+            slot="before"
+            width="24" height="24" viewBox="0 0 24 24" 
+            stroke-width="2" stroke="currentColor" 
+            fill="none" stroke-linecap="round" 
+            stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
+            fill="none"/>
+            <path d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z" />
+            <path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
+            
+            About</HeaderButtom>
+        <HeaderButtom href="/">
+            <svg slot="before" 
+            width="24" height="24" viewBox="0 0 24 24" 
+            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" 
+            stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" 
+                fill="none"/><path d="M6 21l12 -9" /><path d="M6 12l12 9" />
+                <path d="M5 12h14" /><path d="M6 3v9" /><path d="M18 3v9" />
+                <path d="M6 8h12" /><path d="M6 5h12" /></svg>
+            
+            Proyectos</HeaderButtom>
+    </nav>
+</header>
